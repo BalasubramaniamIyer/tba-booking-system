@@ -1,0 +1,14 @@
+services:
+  pg:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgresql
+      POSTGRES_DB: tbadb
+    ports:
+      - "5435:5432"
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6380:6379"

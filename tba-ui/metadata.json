@@ -1,0 +1,5 @@
+{
+  "name": "TicketMaster Pro",
+  "description": "A premium ticket booking platform with role-based access for users, managers, and admins.",
+  "requestFramePermissions": []
+}
